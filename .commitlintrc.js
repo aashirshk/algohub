@@ -44,6 +44,10 @@ module.exports = {
     },
     types: [
       {
+        value: "initial",
+        name: "initial:  🎉  First commit to the git repo.",
+      },
+      {
         value: "feat",
         name: "feat:     ✨  A new feature",
         emoji: ":sparkles:",
@@ -58,6 +62,11 @@ module.exports = {
         value: "style",
         name: "style:    💄  Changes that do not affect the meaning of the code",
         emoji: ":lipstick:",
+      },
+      {
+        value: "remove",
+        name: "remove:    🗑️  Removed a file or folder from the project.",
+        emoji: ":wastebasket:",
       },
       {
         value: "refactor",
@@ -110,6 +119,8 @@ module.exports = {
         name: "Algorithms(Python): Algorithms written in python langugage.",
       },
     ],
+    enableMultipleScopes: true,
+    scopeEnumSeperator: ",",
     allowCustomScopes: true,
     allowEmptyScopes: true,
     customScopesAlign: "bottom",
