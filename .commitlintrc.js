@@ -46,6 +46,7 @@ module.exports = {
       {
         value: "initial",
         name: "initial:  🎉  First commit to the git repo.",
+        emoji: ":tada:",
       },
       {
         value: "feat",
@@ -111,12 +112,16 @@ module.exports = {
     themeColorCode: "",
     scopes: [
       {
-        value: "Algorithms(Dart)",
-        name: "Algorithms(Dart): Algorithms written in dart langugage.",
+        value: "algorithms(Dart)",
+        name: "algorithms(Dart): Algorithms written in dart langugage.",
       },
       {
-        value: "Algorithms(Python)",
-        name: "Algorithms(Python): Algorithms written in python langugage.",
+        value: "algorithms(Python)",
+        name: "algorithms(Python): Algorithms written in python langugage.",
+      },
+      {
+        value: "commitlintrc",
+        name: "commitlintrc: Configuration file for git commit.",
       },
     ],
     enableMultipleScopes: true,
